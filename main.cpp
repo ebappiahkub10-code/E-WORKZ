@@ -1,5 +1,4 @@
-////  Enoch Appiah-kubi
-//  Final Project
+//  Mobile Bank Project
 //  main.cpp
 //  ebappiahkubi_Final
 //  Created by Enoch Appiah-kubi on 4/21/25.
