@@ -1,6 +1,6 @@
 📱 Mobile Bank (C++ Console Application)
 Author: Enoch Appiah-Kubi
-Date Created: April 21, 2025
+Date Created: August 15, 2025
 Language: C++
 Status: Functional – with persistent data storage
 
@@ -42,26 +42,12 @@ File I/O for persistent data storage
 Password Hashing using std::hash
 
 📂 File Structure
-bash
-Copy
-Edit
-MobileBank/
-│
+
 ├── main.cpp                # Main application code
 ├── MobileBankDB.txt        # Persistent account & transaction storage
-└── README.md               # Project documentation
-🚀 How to Run
-1. Compile
-bash
-Copy
-Edit
-g++ -std=c++17 main.cpp -o MobileBank
-2. Run
-bash
-Copy
-Edit
-./MobileBank
+
 📖 Menu Commands
+
 Command	Description
 C	Create a new account
 D	Deposit funds
@@ -78,11 +64,8 @@ The program uses std::hash to ensure raw passwords are never saved.
 Account data is saved in MobileBankDB.txt in a human-readable format.
 
 📌 Example Usage
-pgsql
-Copy
-Edit
-Menu Program
 
+Menu Program
 COMMANDS
 C - Account Create
 D - Deposit
@@ -100,17 +83,11 @@ Name: John Doe
 🗄 Data Persistence
 Account data is stored in:
 
-javascript
-Copy
-Edit
 ~/Desktop/MobileBankDB.txt
 The file is automatically created if it doesn’t exist.
 
 Example file contents:
 
-yaml
-Copy
-Edit
 === Mobile Bank Database ===
 
 Account: John Doe (1001)
@@ -119,14 +96,6 @@ Password Hash: 84736487236487236
 Transactions:
    Deposited $1000
    Deposited $500
-📅 Future Improvements
-Implement cross-platform password masking (e.g., ***** while typing)
-
-Encrypt database file for added security
-
-Add account deletion feature
-
-Support multiple currencies
 
 📜 License
 This project is open-source. You are free to use and modify it for educational purposes.
